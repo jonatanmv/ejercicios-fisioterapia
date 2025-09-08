@@ -1,0 +1,42 @@
+:root {
+    --bg-color: whitesmoke;
+    --color: #777
+}
+
+body, html {
+    background-color: var(--bg-color);
+    color: var(--color);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color);
+    padding: 10px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+#container {
+    border: 1px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color);
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
